@@ -22,3 +22,23 @@ footer {
 footer p {
   font-size: 0.75rem;
 }
+
+table {
+  border: 1px solid #333;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border-bottom: 3px solid #333;
+}
+
+td {
+  padding: 0.25rem;
+  text-align: left;
+  border: 1px solid #444;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
