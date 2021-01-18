@@ -6,39 +6,60 @@ html, body {
   line-height: 1.5rem;
 }
 
-header, section, footer {
+body {
+  background-image: url("/images/rpggen-hex-bg.png");
+}
+
+h1, h2, h3 {
+  font-family: "Georgia", serif;
+}
+
+section, footer {
+  padding: 0;
   width: 960px;
   margin: 0 auto;
+  background-color: white;
+}
+
+section {
+  padding: 0.5rem;
 }
 
 header {
-  border-bottom: 1px solid #eee;
+  display: grid;
+  grid-template-columns: 400px auto;
+  background-color: #C00000;
+  border-bottom: 5px solid black;
+  width: 100%;
+}
+
+header > p {
+  align-self: center;
+  color: white;
+  font-style: italic;
+  font-weight: 300;
 }
 
 footer {
   border-top: 1px solid #aaa;
+  padding-top: 0.5rem;
 }
 
 footer p {
   font-size: 0.75rem;
 }
 
-table {
-  border: 1px solid #333;
-  border-collapse: collapse;
-  width: 100%;
+p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  padding: 0;
 }
 
-th {
-  border-bottom: 3px solid #333;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-td {
-  padding: 0.25rem;
-  text-align: left;
-  border: 1px solid #444;
-}
-
-tbody tr:nth-child(odd) {
-  background: #eee;
+ul > li {
+  margin-left: 2rem;
 }
