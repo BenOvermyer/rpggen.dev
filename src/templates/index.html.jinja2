@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RPGgen: Tabletop Role-Playing Game Generators</title>
+        <link rel="stylesheet" type="text/css" href="rpggen.css">
+        <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="manifest.json">
+        <meta name="description" content="A directory of websites that provide content generation tools for table-top role-playing games.">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <img src="images/rpggen-logo.gif" alt="RPGGen" width="400"/>
+            <p>Websites that provide content generators for tabletop role-playing games</p>
+        </header>
+        <section>
+            <p>These are listed in alphabetical order, with <a href="https://randroll.com">RandRoll</a> interviews where applicable.</p>
+            <p>Each entry also lists some (but not all) of the generators that the site provides, if the site is a collection of generators
+              rather than a single big generator.</p>
+            <ul>
+              {% for entry in entries %}
+              <li>
+                <a href="{{ entry.url }}">{{ entry.name }}</a>
+                {%- if entry.interview -%}
+                : also see <a href="{{ entry.interview }}">RandRoll interview</a>
+                {% endif %}
+                {% if entry.examples %}
+                <ul class="examples">
+                  {% for example in entry.examples %}
+                  <li><a href="{{ example.url }}">{{ example.name }}</a></li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+              </li>
+              {% endfor %}
+            </ul>
+        </section>
+        <footer>
+            <p>This site is maintained by <a href="https://benovermyer.com">Ben Overmyer</a> of <a href="https://ironarachne.com">Iron Arachne</a>. You can find the source for it <a href="https://github.com/BenOvermyer/rpggen.dev">on GitHub</a>.</p>
+        </footer>
+        <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1c456d736cdb467ab267bf8a795b3fe9"}'></script><!-- End Cloudflare Web Analytics -->
+    </body>
+</html>

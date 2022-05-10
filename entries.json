@@ -1,0 +1,550 @@
+{
+  "entries": [
+    {
+      "name": "5e Magic Shop",
+      "url": "https://5emagic.shop/",
+      "interview": "https://randroll.com/archive/creative_interview_5e_magic_shop/",
+      "examples": [
+        {
+          "name": "Mercenary cost calculator",
+          "url": "https://5emagic.shop/mercenary-cost-calculator"
+        },
+        {
+          "name": "Wizard spellbook generator",
+          "url": "https://5emagic.shop/spellbook/generate"
+        }
+      ]
+    },
+    {
+      "name": "5th D&D",
+      "url": "https://www.5thdnd.com/",
+      "interview": "https://randroll.com/archive/interview_jerry_joe_seltzer/",
+      "examples": [
+        {
+          "name": "Melee weapon fumbles",
+          "url": "https://www.5thdnd.com/melee-weapon"
+        },
+        {
+          "name": "Shield generator",
+          "url": "https://www.5thdnd.com/copy-of-armor"
+        }
+      ]
+    },
+    {
+      "name": "Ancient Quests",
+      "url": "http://ancientquests.com/",
+      "interview": "https://randroll.com/archive/interview_ancient_quests/",
+      "examples": []
+    },
+    {
+      "name": "Azgaar's Fantasy Map Generator",
+      "url": "https://azgaar.github.io/Fantasy-Map-Generator/",
+      "interview": "",
+      "examples": []
+    },
+    {
+      "name": "Beastlands",
+      "url": "https://beastlands.com/",
+      "interview": "https://randroll.com/archive/interview_beastlands/",
+      "examples": []
+    },
+    {
+      "name": "ChaosGen",
+      "url": "https://chaosgen.com/",
+      "interview": "",
+      "examples": [
+        {
+          "name": "D&D 5E encounter generator",
+          "url": "https://www.chaosgen.com/dnd5e/random-encounter/"
+        },
+        {
+          "name": "Adventuring group name generator",
+          "url": "https://www.chaosgen.com/fantasy/party-name"
+        }
+      ]
+    },
+    {
+      "name": "Chaotic Shiny",
+      "url": "http://chaoticshiny.com/",
+      "interview": "https://randroll.com/archive/interview-with-hannah-lipsky-of-chaotic-shiny/",
+      "examples": [
+        {
+          "name": "Civilization generator",
+          "url": "http://chaoticshiny.com/civgen.php"
+        },
+        {
+          "name": "Holiday generator",
+          "url": "http://chaoticshiny.com/holidaygen.php"
+        }
+      ]
+    },
+    {
+      "name": "Chartopia",
+      "url": "https://chartopia.d12dev.com/",
+      "interview": "https://randroll.com/archive/interview-with-glenn-mccord-of-chartopia/",
+      "examples": []
+    },
+    {
+      "name": "Copper Sanctum",
+      "url": "https://thecoppersanctum.github.io/thecoppersanctum/taverns.html",
+      "interview": "https://randroll.com/archive/interview_copper_sanctum/",
+      "examples": []
+    },
+    {
+      "name": "D&D 5E Tools by Leugren",
+      "url": "https://1-dot-encounter-planner.appspot.com/",
+      "interview": "",
+      "examples": [
+        {
+          "name": "Building generator",
+          "url": "https://1-dot-encounter-planner.appspot.com/building-generator.html"
+        },
+        {
+          "name": "World-shaking event generator",
+          "url": "https://1-dot-encounter-planner.appspot.com/world-shaking-event-generator.html"
+        }
+      ]
+    },
+    {
+      "name": "D&D Speak",
+      "url": "http://dndspeak.com/generators/",
+      "interview": "https://randroll.com/archive/interview-with-casey-of-dndspeak/",
+      "examples": [
+        {
+          "name": "Random disease generator",
+          "url": "http://dndspeak.com/2019/09/random-disease-generator/"
+        },
+        {
+          "name": "Random potion generator",
+          "url": "http://dndspeak.com/2019/06/random-potion-generator/"
+        }
+      ]
+    },
+    {
+      "name": "Dareheart's Monstrous Codex",
+      "url": "http://www.ionzone.com/rpg/dmc.php",
+      "interview": "",
+      "examples": []
+    },
+    {
+      "name": "Darkest of Nights",
+      "url": "https://www.darkestofnights.com/gens.php",
+      "interview": "",
+      "examples": [
+        {
+          "name": "Constellation generator",
+          "url": "https://www.darkestofnights.com/gen_cons.php"
+        },
+        {
+          "name": "Art idea generator",
+          "url": "https://www.darkestofnights.com/gen_artidea.php"
+        }
+      ]
+    },
+    {
+      "name": "Dave's Mapper",
+      "url": "https://davesmapper.com/",
+      "interview": "https://randroll.com/archive/interview_daves_mapper/",
+      "examples": []
+    },
+    {
+      "name": "Donjon",
+      "url": "https://donjon.bin.sh/",
+      "interview": "https://randroll.com/archive/interview-with-donjon-of-donjonbinsh/",
+      "examples": [
+        {
+          "name": "Sci-fi world generator",
+          "url": "Sci-fi world generator"
+        },
+        {
+          "name": "Random 5E dungeon generator",
+          "url": "https://donjon.bin.sh/5e/dungeon/"
+        }
+      ]
+    },
+    {
+      "name": "Dungen",
+      "url": "https://dungen.app/dungen/",
+      "interview": "https://randroll.com/archive/interview-with-nick-of-dungen/",
+      "examples": []
+    },
+    {
+      "name": "Dungeon Master's Vault",
+      "url": "https://www.dungeonmastersvault.com/",
+      "interview": "https://randroll.com/archive/interview-dungeon-masters-vault/",
+      "examples": [
+        {
+          "name": "City generator",
+          "url": "https://www.dungeonmastersvault.com/generator/citygenerator"
+        },
+        {
+          "name": "Rumor generator",
+          "url": "https://www.dungeonmastersvault.com/generator/rumorgenerator"
+        }
+      ]
+    },
+    {
+      "name": "Eigengrau's Generator",
+      "url": "http://eigengrausgenerator.com/",
+      "interview": "https://randroll.com/archive/interview_rhys_eigengraus/",
+      "examples": []
+    },
+    {
+      "name": "Ennead Games",
+      "url": "http://enneadgames.com/generators-and-tools/",
+      "interview": "https://randroll.com/archive/interview-with-chris-kentlea-of-ennead-games/",
+      "examples": [
+        {
+          "name": "Arcane babble generator",
+          "url": "http://enneadgames.com/generators-and-tools/arcane-babble-generator/"
+        },
+        {
+          "name": "Altar generator",
+          "url": "http://enneadgames.com/generators/dungeon-generator/altar-generator/"
+        }
+      ]
+    },
+    {
+      "name": "Eposic",
+      "url": "https://www.trollmystic.com/pub/category/generators/",
+      "interview": "",
+      "examples": [
+        {
+          "name": "Magic effects generator",
+          "url": "https://www.trollmystic.com/pub/2012/03/03/magic-effects-generator/"
+        },
+        {
+          "name": "Event generator",
+          "url": "https://www.trollmystic.com/pub/2012/03/03/event-generator/"
+        }
+      ]
+    },
+    {
+      "name": "Everweird",
+      "url": "https://everweird.app",
+      "interview": "https://randroll.com/archive/interview-everweird/",
+      "examples": [
+        {
+          "name": "Critical miss generator",
+          "url": "https://everweird.app/category/critical-miss/"
+        },
+        {
+          "name": "Pocket filler",
+          "url": "https://everweird.app/category/item/pocket-filler/"
+        }
+      ]
+    },
+    {
+      "name": "Fantasy Calendar",
+      "url": "https://fantasy-calendar.com/",
+      "interview": "https://randroll.com/archive/interview-fantasy-calendar/",
+      "examples": []
+    },
+    {
+      "name": "Fantasy Name Generators",
+      "url": "https://www.fantasynamegenerators.com/",
+      "interview": "",
+      "examples": [
+        {
+          "name": "Evil name generator",
+          "url": "https://www.fantasynamegenerators.com/evil_names.php"
+        },
+        {
+          "name": "Magic user names",
+          "url": "https://www.fantasynamegenerators.com/magic-user-names.php"
+        }
+      ]
+    },
+    {
+      "name": "Glumdark",
+      "url": "https://www.glumdark.com/",
+      "interview": "",
+      "examples": []
+    },
+    {
+      "name": "Here Be Taverns",
+      "url": "http://www.herebetaverns.com/",
+      "interview": "",
+      "examples": [
+        {
+          "name": "Character generator",
+          "url": "http://www.herebetaverns.com/characters"
+        },
+        {
+          "name": "Item generator",
+          "url": "http://www.herebetaverns.com/items"
+        }
+      ]
+    },
+    {
+      "name": "Iron Arachne",
+      "url": "https://ironarachne.com/",
+      "interview": "https://randroll.com/archive/interview-with-ben-overmyer-of-iron-arachne/",
+      "examples": [
+        {
+          "name": "Culture generator",
+          "url": "https://ironarachne.com/#/culture"
+        },
+        {
+          "name": "Uncharted Worlds character generator",
+          "url": "https://ironarachne.com/#/unchartedworlds/character"
+        }
+      ]
+    },
+    {
+      "name": "John's Dungeons and Dragons Tools",
+      "url": "https://jtevans.kilnar.com/rpg/dnd/tools/index.php",
+      "interview": "",
+      "examples": [
+        {
+          "name": "Air odor generator",
+          "url": "https://jtevans.kilnar.com/rpg/dnd/tools/dress.php?input=2"
+        },
+        {
+          "name": "Mage furnishings generator",
+          "url": "https://jtevans.kilnar.com/rpg/dnd/tools/dress.php?input=9"
+        }
+      ]
+    },
+    {
+      "name": "Kassoon's Campaign Generator",
+      "url": "https://www.kassoon.com/dnd/",
+      "interview": "https://randroll.com/archive/interview-with-kassoon-of-rogue-legend-2/",
+      "examples": [
+        {
+          "name": "Backstory generator",
+          "url": "https://www.kassoon.com/dnd/backstory-generator/"
+        },
+        {
+          "name": "Interesting location generator",
+          "url": "https://www.kassoon.com/dnd/interesting-locations/"
+        }
+      ]
+    },
+    {
+      "name": "Lady Tiefling",
+      "url": "https://www.patreon.com/ladytiefling",
+      "interview": "https://randroll.com/archive/interview_lady_tiefling/",
+      "examples": []
+    },
+    {
+      "name": "Magical Gurll! Generators",
+      "url": "https://generators.magicalgurll.com/",
+      "interview": "",
+      "examples": [
+        {
+          "name": "Magical girl generator",
+          "url": "https://generators.magicalgurll.com/original/magicalgirl.html"
+        },
+        {
+          "name": "Witch generator",
+          "url": "https://generators.magicalgurll.com/original/witch.html"
+        }
+      ]
+    },
+    {
+      "name": "Mithril and Mages",
+      "url": "https://www.mithrilandmages.com/",
+      "interview": "",
+      "examples": [
+        {
+          "name": "Inn and tavern name generator",
+          "url": "https://www.mithrilandmages.com/utilities/Inns.php"
+        },
+        {
+          "name": "Labyrinth Lord monster mangler",
+          "url": "https://www.mithrilandmages.com/utilities/LLMonsterMangler.php"
+        }
+      ]
+    },
+    {
+      "name": "NPC Generator",
+      "url": "http://www.npcgenerator.com/",
+      "interview": "",
+      "examples": []
+    },
+    {
+      "name": "Old-School Essentials Generators",
+      "url": "https://oldschoolessentials.necroticgnome.com/generators/",
+      "interview": "",
+      "examples": [
+        {
+          "name": "Sentient sword generator",
+          "url": "https://oldschoolessentials.necroticgnome.com/generators/sentient-sword-generator"
+        },
+        {
+          "name": "Treasure by dungeon level",
+          "url": "https://oldschoolessentials.necroticgnome.com/generators/treasure-by-dungeon-level-generator"
+        }
+      ]
+    },
+    {
+      "name": "Paco's Miscellaneous Stuff",
+      "url": "https://pacomiscelaneousstuff.blogspot.com/",
+      "interview": "",
+      "examples": []
+    },
+    {
+      "name": "Perchance",
+      "url": "https://perchance.org/welcome",
+      "interview": "",
+      "examples": []
+    },
+    {
+      "name": "RandomCreation",
+      "url": "https://randomcreation.net/",
+      "interview": "",
+      "examples": [
+        {
+          "name": "Five room dungeon generator",
+          "url": "https://randomcreation.net/Five_Room_Dungeon.html?token=ebecdf214f3740778da3202232bebec7"
+        },
+        {
+          "name": "Monster concept generator",
+          "url": "https://randomcreation.net/generators.html?token=3cc36c24a43949678c6ca652b106514a"
+        }
+      ]
+    },
+    {
+      "name": "RanGen",
+      "url": "http://www.rangen.co.uk/",
+      "interview": "https://randroll.com/archive/interview_creator_of_rangen/",
+      "examples": [
+        {
+          "name": "Character archetype generator",
+          "url": "https://www.rangen.co.uk/chars/archegen.php"
+        },
+        {
+          "name": "Law generator",
+          "url": "https://www.rangen.co.uk/world/lawgen.php"
+        }
+      ]
+    },
+    {
+      "name": "Role Playing Tips",
+      "url": "https://roleplayingtips.com/",
+      "interview": "https://randroll.com/archive/interview_johnn_four/",
+      "examples": []
+    },
+    {
+      "name": "Roll and Play",
+      "url": "https://rollandplaypress.com/",
+      "interview": "https://randroll.com/archive/interview-roll-play-sam/",
+      "examples": []
+    },
+    {
+      "name": "Secret Door",
+      "url": "http://www.secretdoor.online/npc/namegen",
+      "interview": "https://randroll.com/archive/interview-secret-door/",
+      "examples": [
+        {
+          "name": "Dragon name generator",
+          "url": "http://www.secretdoor.online/npc/dragons"
+        },
+        {
+          "name": "Lizardfolk name generator",
+          "url": "http://www.secretdoor.online/npc/lizard0"
+        }
+      ]
+    },
+    {
+      "name": "Serious d6",
+      "url": "https://seriousd6.github.io/",
+      "interview": "https://randroll.com/archive/interview-serious-d6/",
+      "examples": [
+        {
+          "name": "Tavern generator",
+          "url": "https://seriousd6.github.io/tavern.html"
+        },
+        {
+          "name": "Shopkeeper generator",
+          "url": "https://seriousd6.github.io/shopkeeper.html"
+        }
+      ]
+    },
+    {
+      "name": "Seventh Sanctum",
+      "url": "https://www.seventhsanctum.com/",
+      "interview": "https://randroll.com/archive/an-interview-with-steven-savage/",
+      "examples": [
+        {
+          "name": "Supervillain theme generator",
+          "url": "https://www.seventhsanctum.com/generate.php?Genname=supervillaintheme"
+        },
+        {
+          "name": "Super profession generator",
+          "url": "https://www.seventhsanctum.com/generate.php?Genname=superprofession"
+        }
+      ]
+    },
+    {
+      "name": "SFRPG Tools",
+      "url": "https://sfrpgtools.com/",
+      "interview": "https://randroll.com/archive/interview_sfrpgtools_creator/",
+      "examples": [
+        {
+          "name": "Starship generator",
+          "url": "https://sfrpgtools.com/starship-generator"
+        },
+        {
+          "name": "Starfinder trap generator",
+          "url": "https://sfrpgtools.com/trap-generator"
+        }
+      ]
+    },
+    {
+      "name": "Snow White Hills",
+      "url": "https://snowwhitehills.blogspot.com/",
+      "interview": "https://randroll.com/archive/interview_with_bobo/",
+      "examples": []
+    },
+    {
+      "name": "Springhole Random Generators",
+      "url": "https://www.springhole.net/writing_roleplaying_randomators/index.html",
+      "interview": "",
+      "examples": [
+        {
+          "name": "Plant generator",
+          "url": "https://www.springhole.net/writing_roleplaying_randomators/plants.htm"
+        },
+        {
+          "name": "Humanoid race generator",
+          "url": "https://www.springhole.net/writing_roleplaying_randomators/humanoid.htm"
+        }
+      ]
+    },
+    {
+      "name": "Star Wars RPG Shop",
+      "url": "https://www.swrpg-shop.com/",
+      "interview": "https://randroll.com/archive/interview_swrpg_shop/",
+      "examples": []
+    },
+    {
+      "name": "Total Party Kill 5e NPC Generator",
+      "url": "http://character.totalpartykill.ca/5e/",
+      "interview": "",
+      "examples": []
+    },
+    {
+      "name": "Watabou's Generators",
+      "url": "https://watabou.itch.io/",
+      "interview": "",
+      "examples": [
+        {
+          "name": "One page dungeon generator",
+          "url": "https://watabou.itch.io/one-page-dungeon"
+        },
+        {
+          "name": "Perilous Shores",
+          "url": "https://watabou.itch.io/perilous-shores"
+        }
+      ]
+    },
+    {
+      "name": "Wintertree",
+      "url": "https://www.wintertreeredux.com/",
+      "interview": "https://randroll.com/archive/interview-table-master/",
+      "examples": []
+    }
+  ]
+}
