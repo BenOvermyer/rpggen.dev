@@ -17,6 +17,16 @@
         <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
         <link rel="manifest" href="manifest.json">
+        <style>
+        {% for topic in topics %}
+        .topic-{{ topic.name|replace(' ', '')|replace("'", '')|replace('&', '') }} {
+          color: {{ topic.text }};
+          background-color: {{ topic.fill }};
+          border: 2px solid {{ topic.border }};
+        }
+
+        {% endfor %}
+        </style>
         <meta name="description" content="A directory of websites that provide content generation tools for table-top role-playing games.">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -33,27 +43,47 @@
             <p>These are listed in alphabetical order, with <a href="https://randroll.com">RandRoll</a> interviews where applicable.</p>
             <p>Each entry also lists some (but not all) of the generators that the site provides, if the site is a collection of generators
               rather than a single big generator.</p>
-            <ul>
-              {% for entry in entries %}
-              <li>
-                <a href="{{ entry.url }}">{{ entry.name }}</a>
-                {%- if entry.interview -%}
-                : also see <a href="{{ entry.interview }}">RandRoll interview</a>
+            <p>The directory starts with a list of every site. Following that are lists for each individual topic.</p>
+            <h1>Topics</h1>
+            <ul class="topics">
+            {% for topic in topics %}
+              <li><div class="badge topic-{{ topic['name']|replace(' ', '')|replace("'", '')|replace('&', '') }}"><span>{{ topic['name']|first }}</span></div> <a href="#{{ topic['name']|urlencode }}">{{ topic['name'] }}</a></li>
+            {% endfor %}
+            </ul>
+
+            {% for category in entries %}
+            <h1 id="{{ category.name|urlencode }}">{{ category.name|title }}</h1>
+            {% for entry in category.entries %}
+              <div class="entry">
+                <h2>{{ entry.name }}</h2>
+                <p><strong>Website:</strong> <a href="{{ entry.url }}">{{ entry.url }}</a></p>
+                {% if entry.interview %}
+                <p><strong>Interview:</strong> <a href="{{ entry.interview }}">{{ entry.interview }}</a></p>
                 {% endif %}
                 {% if entry.examples %}
+                <h3>Some Generators from {{ entry.name }}</h3>
                 <ul class="examples">
                   {% for example in entry.examples %}
                   <li><a href="{{ example.url }}">{{ example.name }}</a></li>
                   {% endfor %}
                 </ul>
                 {% endif %}
-              </li>
-              {% endfor %}
-            </ul>
+                {% if entry.topics %}
+                <h3>{{ entry.name }} Topics</h3>
+                <div class="topic-container">
+                {% for topic in entry.topics %}
+                  <div class="topic topic-{{ topic|replace(' ', '')|replace("'", '')|replace('&', '') }}">
+                    <span>{{ topic }}</span>
+                  </div>
+                {% endfor %}
+                </div>
+                {% endif %}
+              </div>
+            {% endfor %}
+          {% endfor %}
         </section>
         <footer>
-            <p>This site is maintained by <a href="https://benovermyer.com">Ben Overmyer</a> of <a href="https://ironarachne.com">Iron Arachne</a>. You can find the source for it <a href="https://github.com/BenOvermyer/rpggen.dev">on GitHub</a>.</p>
+          <p>This site is maintained by <a href="https://benovermyer.com">Ben Overmyer</a> of <a href="https://ironarachne.com">Iron Arachne</a>. You can find the source for it <a href="https://github.com/BenOvermyer/rpggen.dev">on GitHub</a>.</p>
         </footer>
-        <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1c456d736cdb467ab267bf8a795b3fe9"}'></script><!-- End Cloudflare Web Analytics -->
     </body>
 </html>

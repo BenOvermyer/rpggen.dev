@@ -1,12 +1,33 @@
 import json, shutil, os
 from jinja2 import Environment, FileSystemLoader
 
+def categorize_entries(all, topics):
+  category_all = {
+    "name": "The Full List",
+    "entries": all
+  }
+  entries = []
+  entries.append(category_all)
+
+  for topic in topics:
+    topic_list = []
+    for entry in all:
+      if topic['name'] in entry['topics']: topic_list.append(entry)
+    entries.append({
+      "name": topic['name'],
+      "entries": topic_list
+    })
+
+  return entries
+
+f = open("data.json", "r")
+data = json.load(f)
+f.close()
+
 shutil.rmtree('public')
 os.mkdir('public')
 
-f = open("entries.json", "r")
-entries = json.load(f)
-f.close()
+entries = categorize_entries(data['entries'], data['topics'])
 
 file_loader = FileSystemLoader('src/templates')
 env = Environment(loader=file_loader)
@@ -15,7 +36,7 @@ env.lstrip_blocks = True
 env.rstrip_blocks = True
 
 template = env.get_template('index.html.jinja2')
-content = template.render(entries=entries['entries'])
+content = template.render(entries=entries, topics=data['topics'])
 
 o = open("public/index.html", "w")
 

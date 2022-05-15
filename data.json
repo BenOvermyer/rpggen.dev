@@ -3,6 +3,7 @@
     {
       "name": "5e Magic Shop",
       "url": "https://5emagic.shop/",
+      "topics": ["Dungeons & Dragons 5e", "fantasy", "items"],
       "interview": "https://randroll.com/archive/creative_interview_5e_magic_shop/",
       "examples": [
         {
@@ -18,6 +19,7 @@
     {
       "name": "5th D&D",
       "url": "https://www.5thdnd.com/",
+      "topics": ["Dungeons & Dragons 5e", "fantasy"],
       "interview": "https://randroll.com/archive/interview_jerry_joe_seltzer/",
       "examples": [
         {
@@ -33,24 +35,28 @@
     {
       "name": "Ancient Quests",
       "url": "http://ancientquests.com/",
+      "topics": ["fantasy"],
       "interview": "https://randroll.com/archive/interview_ancient_quests/",
       "examples": []
     },
     {
       "name": "Azgaar's Fantasy Map Generator",
       "url": "https://azgaar.github.io/Fantasy-Map-Generator/",
+      "topics": ["fantasy", "maps"],
       "interview": "",
       "examples": []
     },
     {
       "name": "Beastlands",
       "url": "https://beastlands.com/",
+      "topics": [],
       "interview": "https://randroll.com/archive/interview_beastlands/",
       "examples": []
     },
     {
       "name": "ChaosGen",
       "url": "https://chaosgen.com/",
+      "topics": ["Dungeons & Dragons 5e", "fantasy", "names"],
       "interview": "",
       "examples": [
         {
@@ -66,6 +72,7 @@
     {
       "name": "Chaotic Shiny",
       "url": "http://chaoticshiny.com/",
+      "topics": ["fantasy"],
       "interview": "https://randroll.com/archive/interview-with-hannah-lipsky-of-chaotic-shiny/",
       "examples": [
         {
@@ -81,18 +88,21 @@
     {
       "name": "Chartopia",
       "url": "https://chartopia.d12dev.com/",
+      "topics": [],
       "interview": "https://randroll.com/archive/interview-with-glenn-mccord-of-chartopia/",
       "examples": []
     },
     {
       "name": "Copper Sanctum",
       "url": "https://thecoppersanctum.github.io/thecoppersanctum/taverns.html",
+      "topics": [],
       "interview": "https://randroll.com/archive/interview_copper_sanctum/",
       "examples": []
     },
     {
       "name": "D&D 5E Tools by Leugren",
       "url": "https://1-dot-encounter-planner.appspot.com/",
+      "topics": ["Dungeons & Dragons 5e", "fantasy"],
       "interview": "",
       "examples": [
         {
@@ -108,6 +118,7 @@
     {
       "name": "D&D Speak",
       "url": "http://dndspeak.com/generators/",
+      "topics": ["fantasy"],
       "interview": "https://randroll.com/archive/interview-with-casey-of-dndspeak/",
       "examples": [
         {
@@ -123,12 +134,14 @@
     {
       "name": "Dareheart's Monstrous Codex",
       "url": "http://www.ionzone.com/rpg/dmc.php",
+      "topics": ["fantasy"],
       "interview": "",
       "examples": []
     },
     {
       "name": "Darkest of Nights",
       "url": "https://www.darkestofnights.com/gens.php",
+      "topics": [],
       "interview": "",
       "examples": [
         {
@@ -144,12 +157,14 @@
     {
       "name": "Dave's Mapper",
       "url": "https://davesmapper.com/",
+      "topics": ["fantasy", "maps"],
       "interview": "https://randroll.com/archive/interview_daves_mapper/",
       "examples": []
     },
     {
       "name": "Donjon",
       "url": "https://donjon.bin.sh/",
+      "topics": ["fantasy", "sci-fi", "Dungeons & Dragons 5e", "Old School Revival", "maps"],
       "interview": "https://randroll.com/archive/interview-with-donjon-of-donjonbinsh/",
       "examples": [
         {
@@ -165,12 +180,14 @@
     {
       "name": "Dungen",
       "url": "https://dungen.app/dungen/",
+      "topics": ["fantasy", "maps"],
       "interview": "https://randroll.com/archive/interview-with-nick-of-dungen/",
       "examples": []
     },
     {
       "name": "Dungeon Master's Vault",
       "url": "https://www.dungeonmastersvault.com/",
+      "topics": ["fantasy"],
       "interview": "https://randroll.com/archive/interview-dungeon-masters-vault/",
       "examples": [
         {
@@ -186,12 +203,14 @@
     {
       "name": "Eigengrau's Generator",
       "url": "http://eigengrausgenerator.com/",
+      "topics": [],
       "interview": "https://randroll.com/archive/interview_rhys_eigengraus/",
       "examples": []
     },
     {
       "name": "Ennead Games",
       "url": "http://enneadgames.com/generators-and-tools/",
+      "topics": ["fantasy"],
       "interview": "https://randroll.com/archive/interview-with-chris-kentlea-of-ennead-games/",
       "examples": [
         {
@@ -207,6 +226,7 @@
     {
       "name": "Eposic",
       "url": "https://www.trollmystic.com/pub/category/generators/",
+      "topics": [],
       "interview": "",
       "examples": [
         {
@@ -222,6 +242,7 @@
     {
       "name": "Everweird",
       "url": "https://everweird.app",
+      "topics": [],
       "interview": "https://randroll.com/archive/interview-everweird/",
       "examples": [
         {
@@ -237,12 +258,14 @@
     {
       "name": "Fantasy Calendar",
       "url": "https://fantasy-calendar.com/",
+      "topics": ["calendars"],
       "interview": "https://randroll.com/archive/interview-fantasy-calendar/",
       "examples": []
     },
     {
       "name": "Fantasy Name Generators",
       "url": "https://www.fantasynamegenerators.com/",
+      "topics": ["names"],
       "interview": "",
       "examples": [
         {
@@ -258,12 +281,39 @@
     {
       "name": "Glumdark",
       "url": "https://www.glumdark.com/",
-      "interview": "",
-      "examples": []
+      "topics": ["fantasy", "horror"],
+      "interview": "https://www.randroll.com/interview-glum/",
+      "examples": [
+        {
+          "name": "Abhorrent artifacts",
+          "url": "https://glumdark.com/?tableUuid=23227adf7b08dc7dee20"
+        },
+        {
+          "name": "Extremely unexpected creatures",
+          "url": "https://glumdark.com/?tableUuid=f80a333a63618f52113d"
+        }
+      ]
+    },
+    {
+      "name": "Gozzy's Maps",
+      "url": "https://www.gozzys.com/",
+      "topics": ["fantasy", "maps"],
+      "interview": "https://www.randroll.com/interview-gozzys/",
+      "examples": [
+        {
+          "name": "Dungeon battlemap generator",
+          "url": "https://www.gozzys.com/battlemap/dungeons"
+        },
+        {
+          "name": "Cave battlemap generator",
+          "url": "https://www.gozzys.com/battlemap/caves"
+        }
+      ]
     },
     {
       "name": "Here Be Taverns",
       "url": "http://www.herebetaverns.com/",
+      "topics": [],
       "interview": "",
       "examples": [
         {
@@ -277,8 +327,16 @@
       ]
     },
     {
+      "name": "Hexroll",
+      "url": "https://pendicepaper.com/hexroll/",
+      "topics": ["fantasy", "maps"],
+      "interview": "https://www.randroll.com/interview-hexroll/",
+      "examples": []
+    },
+    {
       "name": "Iron Arachne",
       "url": "https://ironarachne.com/",
+      "topics": ["Dungeon Crawl Classics", "Uncharted Worlds", "Stars Without Number", "sci-fi", "cyberpunk", "fantasy"],
       "interview": "https://randroll.com/archive/interview-with-ben-overmyer-of-iron-arachne/",
       "examples": [
         {
@@ -294,6 +352,7 @@
     {
       "name": "John's Dungeons and Dragons Tools",
       "url": "https://jtevans.kilnar.com/rpg/dnd/tools/index.php",
+      "topics": [],
       "interview": "",
       "examples": [
         {
@@ -309,6 +368,7 @@
     {
       "name": "Kassoon's Campaign Generator",
       "url": "https://www.kassoon.com/dnd/",
+      "topics": [],
       "interview": "https://randroll.com/archive/interview-with-kassoon-of-rogue-legend-2/",
       "examples": [
         {
@@ -324,12 +384,21 @@
     {
       "name": "Lady Tiefling",
       "url": "https://www.patreon.com/ladytiefling",
+      "topics": [],
       "interview": "https://randroll.com/archive/interview_lady_tiefling/",
+      "examples": []
+    },
+    {
+      "name": "LitRPG Adventures",
+      "url": "https://www.litrpgadventures.com/",
+      "topics": ["Artificial Intelligence"],
+      "interview": "https://www.randroll.com/interview-litrpg/",
       "examples": []
     },
     {
       "name": "Magical Gurll! Generators",
       "url": "https://generators.magicalgurll.com/",
+      "topics": [],
       "interview": "",
       "examples": [
         {
@@ -345,6 +414,7 @@
     {
       "name": "Mithril and Mages",
       "url": "https://www.mithrilandmages.com/",
+      "topics": [],
       "interview": "",
       "examples": [
         {
@@ -358,14 +428,23 @@
       ]
     },
     {
+      "name": "Nerdbuilding",
+      "url": "https://nerdbuilding.com/",
+      "topics": ["settlements"],
+      "interview": "https://www.randroll.com/nerdbuild/",
+      "examples": []
+    },
+    {
       "name": "NPC Generator",
       "url": "http://www.npcgenerator.com/",
+      "topics": [],
       "interview": "",
       "examples": []
     },
     {
       "name": "Old-School Essentials Generators",
       "url": "https://oldschoolessentials.necroticgnome.com/generators/",
+      "topics": ["Old School Revival"],
       "interview": "",
       "examples": [
         {
@@ -381,18 +460,21 @@
     {
       "name": "Paco's Miscellaneous Stuff",
       "url": "https://pacomiscelaneousstuff.blogspot.com/",
-      "interview": "",
+      "topics": ["Warhammer Fantasy Role Play", "fantasy"],
+      "interview": "https://randroll.com/archive/interview-wfrp-paco/",
       "examples": []
     },
     {
       "name": "Perchance",
       "url": "https://perchance.org/welcome",
+      "topics": [],
       "interview": "",
       "examples": []
     },
     {
       "name": "RandomCreation",
       "url": "https://randomcreation.net/",
+      "topics": [],
       "interview": "",
       "examples": [
         {
@@ -408,6 +490,7 @@
     {
       "name": "RanGen",
       "url": "http://www.rangen.co.uk/",
+      "topics": ["fantasy"],
       "interview": "https://randroll.com/archive/interview_creator_of_rangen/",
       "examples": [
         {
@@ -423,18 +506,21 @@
     {
       "name": "Role Playing Tips",
       "url": "https://roleplayingtips.com/",
+      "topics": [],
       "interview": "https://randroll.com/archive/interview_johnn_four/",
       "examples": []
     },
     {
       "name": "Roll and Play",
       "url": "https://rollandplaypress.com/",
+      "topics": [],
       "interview": "https://randroll.com/archive/interview-roll-play-sam/",
       "examples": []
     },
     {
       "name": "Secret Door",
       "url": "http://www.secretdoor.online/npc/namegen",
+      "topics": ["fantasy", "names"],
       "interview": "https://randroll.com/archive/interview-secret-door/",
       "examples": [
         {
@@ -450,6 +536,7 @@
     {
       "name": "Serious d6",
       "url": "https://seriousd6.github.io/",
+      "topics": ["fantasy"],
       "interview": "https://randroll.com/archive/interview-serious-d6/",
       "examples": [
         {
@@ -465,6 +552,7 @@
     {
       "name": "Seventh Sanctum",
       "url": "https://www.seventhsanctum.com/",
+      "topics": ["fantasy", "superheroes"],
       "interview": "https://randroll.com/archive/an-interview-with-steven-savage/",
       "examples": [
         {
@@ -480,6 +568,7 @@
     {
       "name": "SFRPG Tools",
       "url": "https://sfrpgtools.com/",
+      "topics": ["sci-fi"],
       "interview": "https://randroll.com/archive/interview_sfrpgtools_creator/",
       "examples": [
         {
@@ -495,12 +584,14 @@
     {
       "name": "Snow White Hills",
       "url": "https://snowwhitehills.blogspot.com/",
+      "topics": [],
       "interview": "https://randroll.com/archive/interview_with_bobo/",
       "examples": []
     },
     {
       "name": "Springhole Random Generators",
       "url": "https://www.springhole.net/writing_roleplaying_randomators/index.html",
+      "topics": ["fantasy"],
       "interview": "",
       "examples": [
         {
@@ -516,18 +607,21 @@
     {
       "name": "Star Wars RPG Shop",
       "url": "https://www.swrpg-shop.com/",
+      "topics": ["Star Wars"],
       "interview": "https://randroll.com/archive/interview_swrpg_shop/",
       "examples": []
     },
     {
       "name": "Total Party Kill 5e NPC Generator",
       "url": "http://character.totalpartykill.ca/5e/",
+      "topics": [],
       "interview": "",
       "examples": []
     },
     {
       "name": "Watabou's Generators",
       "url": "https://watabou.itch.io/",
+      "topics": [],
       "interview": "",
       "examples": [
         {
@@ -543,8 +637,119 @@
     {
       "name": "Wintertree",
       "url": "https://www.wintertreeredux.com/",
+      "topics": [],
       "interview": "https://randroll.com/archive/interview-table-master/",
       "examples": []
+    }
+  ],
+  "topics": [
+    {
+      "name": "Artificial Intelligence",
+      "border": "#333333",
+      "fill": "#33AA22",
+      "text": "#000000"
+    },
+    {
+      "name": "calendars",
+      "border": "#000000",
+      "fill": "#FFFFFF",
+      "text": "#000000"
+    },
+    {
+      "name": "cyberpunk",
+      "border": "#0000FF",
+      "fill": "#000000",
+      "text": "#00FF00"
+    },
+    {
+      "name": "Dungeons & Dragons 5e",
+      "border": "#000000",
+      "fill": "#991100",
+      "text": "#FFFFFF"
+    },
+    {
+      "name": "Dungeon Crawl Classics",
+      "border": "#000000",
+      "fill": "#E80A0A",
+      "text": "#FFFF00"
+    },
+    {
+      "name": "fantasy",
+      "border": "#000000",
+      "fill": "#FFAA00",
+      "text": "#000000"
+    },
+    {
+      "name": "horror",
+      "border": "#000000",
+      "fill": "#331100",
+      "text": "#FF0000"
+    },
+    {
+      "name": "items",
+      "border": "#000033",
+      "fill": "#001144",
+      "text": "#FFFFFF"
+    },
+    {
+      "name": "maps",
+      "border": "#000000",
+      "fill": "#AAFFFF",
+      "text": "#000000"
+    },
+    {
+      "name": "names",
+      "border": "#009933",
+      "fill": "#00AAFF",
+      "text": "#000000"
+    },
+    {
+      "name": "Old School Revival",
+      "border": "#000000",
+      "fill": "#FFFFFF",
+      "text": "#126DFB"
+    },
+    {
+      "name": "sci-fi",
+      "border": "#000000",
+      "fill": "#000000",
+      "text": "#AAAAFF"
+    },
+    {
+      "name": "settlements",
+      "border": "#382208",
+      "fill": "#7E899A",
+      "text": "#000000"
+    },
+    {
+      "name": "Star Wars",
+      "border": "#FFFFFF",
+      "fill": "#000000",
+      "text": "#FFAA00"
+    },
+    {
+      "name": "Stars Without Number",
+      "border": "#000000",
+      "fill": "#000000",
+      "text": "#00AAFF"
+    },
+    {
+      "name": "superheroes",
+      "border": "#FFAA00",
+      "fill": "#000055",
+      "text": "#FF0000"
+    },
+    {
+      "name": "Uncharted Worlds",
+      "border": "#007777",
+      "fill": "#331155",
+      "text": "#AAFFFF"
+    },
+    {
+      "name": "Warhammer Fantasy Role Play",
+      "border": "#FFFFFF",
+      "fill": "#E80A0A",
+      "text": "#FFFF00"
     }
   ]
 }
