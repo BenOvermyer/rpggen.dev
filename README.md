@@ -1,11 +1,7 @@
-# rpggen.dev
+# RPGGen Web Directory
 
-This is a directory website for generators for tabletop role-playing games.
+This is a static web directory of tabletop role-playing game content generation websites.
 
-## Contributing
+It's built using TypeScript and Svelte.
 
-Add sites and topics to data.json. Each site should go in the "entries" block. If
-you add a topic to an entry, make sure to also add it to the "topics" block, as that
-is used for indexing and styling.
-
-Once you've made your changes, run `python3 generate.py` to produce the final files.
+To get started with development, run `npm i` and then `npm run dev`.

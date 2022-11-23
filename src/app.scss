@@ -1,0 +1,60 @@
+html {
+  font-size: unquote("clamp(1em, 0.909em + 0.45vmin, 1.25em)");
+  max-width: 70ch;
+  padding: 0 unquote("calc(1vmin + .5rem)");
+  margin-inline: auto;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background-image: url("rpggen-hex-bg.png");
+}
+
+body :not(:is(h1,h2,h3,h4,h5,h6)) {
+  line-height: 1.75;
+}
+
+main {
+  background-color: white;
+  border: 2px dashed #b1d0f6;
+  margin: 0;
+  padding: 0 0.25rem;
+}
+
+h1 {
+  margin: 0;
+  border-bottom: 5px solid black;
+}
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.topics a {
+  border-radius: 0;
+  padding: 0;
+  background-color: #b1d0f6;
+  border-radius: 3px;
+  border: 1px solid black;
+  color: black;
+  font-size: 0.75rem;
+  padding: 0.25rem;
+}
+
+a.active {
+  background-color: black;
+  color: white;
+}
+
+.entry > .topics {
+  font-size: 0.75rem;
+}
+
+.entry > .topics > div {
+  border-radius: 3px;
+  border: 0;
+  background-color: #eee;
+  padding: 0.15rem;
+}
