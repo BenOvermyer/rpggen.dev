@@ -2,16 +2,12 @@
   import * as Entries from './lib/entries';
   import * as Topics from './lib/topics';
 
-  import Entry from './lib/entry';
-  import Link from './lib/link';
-  import Topic from './lib/topic';
-
-  let entries = Entries.all();
+  const entries = Entries.all();
   let topics = Topics.all();
   let filter = '';
 
   function filterTopic(topic: string) {
-    console.log(`Filtering: ${topic}`);
+    console.debug(`Filtering: ${topic}`);
     if (filter == topic) {
       filter = '';
     } else {
@@ -30,7 +26,9 @@
 
   <section class="topics">
     {#each topics as topic}
-    <div><a id="topic-{topic.id}" class="{ topic.name == filter ? 'active': ''}" on:click|preventDefault={() => filterTopic(topic.name)}>{topic.name}</a></div>
+    <div>
+      <a id="topic-{topic.id}" class="{ topic.name == filter ? 'active': ''}" on:click|preventDefault={() => filterTopic(topic.name)}>{topic.name}</a>
+    </div>
     {/each}
   </section>
 
@@ -56,7 +54,6 @@
         {/each}
       </div>
     </section>
-    {:else}
     {/if}
   {/each}
 </main>
