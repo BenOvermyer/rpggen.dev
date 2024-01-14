@@ -47,6 +47,25 @@ export function all(): Entry[] {
 			topics: ["Dungeons & Dragons 5e", "fantasy"],
 		},
 		{
+			name: "7Tools",
+			website: {
+				name: "Website",
+				url: "https://7tools.dev/",
+			},
+			interview: null,
+			examples: [
+				{
+					name: "Historical Event Generator",
+					url: "https://7tools.dev/historicaleventgenerator",
+				},
+				{
+					name: "Settlement Generator",
+					url: "https://7tools.dev/settlement-generator",
+				},
+			],
+			topics: ["fantasy", "settlements"],
+		},
+		{
 			name: "Ancient Quests",
 			website: {
 				name: "Website",

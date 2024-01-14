@@ -20,6 +20,8 @@
   <h1>RPGGen</h1>
   <p>This is a web directory linking to content generators for tabletop role-playing games. Some of these have RandRoll interviews. Sites with more than one generator list some examples of the generators they provide.</p>
 
+  <p><strong>Last Updated:</strong> 2024-01-14</p>
+
   <p>You can filter by topic. Click a topic to filter by it. Click it again to remove the filter.</p>
 
   <p>Current filter: {#if filter != ''}"{filter}"{:else}none{/if}</p>
