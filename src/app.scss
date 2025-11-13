@@ -1,7 +1,9 @@
+@use "sass:string";
+
 html {
-  font-size: unquote("clamp(1em, 0.909em + 0.45vmin, 1.15em)");
+  font-size: string.unquote("clamp(1em, 0.909em + 0.45vmin, 1.15em)");
   max-width: 70ch;
-  padding: 0 unquote("calc(1vmin + .5rem)");
+  padding: 0 string.unquote("calc(1vmin + .5rem)");
   margin-inline: auto;
   font-family: system-ui, sans-serif;
 }

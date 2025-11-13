@@ -101,6 +101,28 @@ export function all(): Entry[] {
 			examples: [],
 			topics: [],
 		},
+    {
+			name: "Blessed by Nuffle",
+			website: {
+				name: "Website",
+				url: "https://blessedbynuffle.blogspot.com/",
+			},
+			interview: {
+				name: "Interview",
+				url: "https://randroll.com/archive/interview_with_bobo/",
+			},
+			examples: [
+        {
+          name: "40k Name Generator",
+          url: "https://blessedbynuffle.blogspot.com/p/40k-name-generator.html"
+        },
+        {
+          name: "Age of Sigmar Name Generator",
+          url: "https://blessedbynuffle.blogspot.com/p/age-of-sigmar-name-generator.html"
+        }
+      ],
+			topics: ["fantasy", "scifi", "names"],
+		},
 		{
 			name: "ChaosGen",
 			website: {
@@ -863,19 +885,6 @@ export function all(): Entry[] {
 				},
 			],
 			topics: ["sci-fi"],
-		},
-		{
-			name: "Snow White Hills",
-			website: {
-				name: "Website",
-				url: "https://snowwhitehills.blogspot.com/",
-			},
-			interview: {
-				name: "Interview",
-				url: "https://randroll.com/archive/interview_with_bobo/",
-			},
-			examples: [],
-			topics: [],
 		},
 		{
 			name: "Springhole Random Generators",
