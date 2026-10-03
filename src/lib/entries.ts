@@ -689,7 +689,22 @@ export function all(): Entry[] {
 			examples: [],
 			topics: [],
 		},
-		{
+				{
+			name: "O.D.I.N.",
+			website: {
+				name: "Website",
+				url: "https://odin-rpg.pages.dev/en/",
+			},
+			interview: null,
+			examples: [
+				{
+					name: "Agent generator for O.D.I.N.",
+					url: "https://odin-rpg.pages.dev/generator/en/",
+				},
+			],
+			topics: ["O.D.I.N.", "modern", "horror", "characters"],
+		},
+    {
 			name: "Old-School Essentials Generators",
 			website: {
 				name: "Website",
