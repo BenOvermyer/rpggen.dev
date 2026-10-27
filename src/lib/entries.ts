@@ -648,6 +648,29 @@ export function all(): Entry[] {
 			topics: ["fantasy", "post-apocalyptic"],
 		},
 		{
+			name: "Mingzi",
+			website: {
+				name: "Website",
+				url: "https://mingzi.io/",
+			},
+			interview: null,
+			examples: [
+				{
+					name: "Chinese Name Generator",
+					url: "https://mingzi.io/chinese-name-generator",
+				},
+				{
+					name: "English to Chinese Name Converter",
+					url: "https://mingzi.io/chinese-name-converter",
+				},
+				{
+					name: "100 Chinese Surnames (Baijiaxing)",
+					url: "https://mingzi.io/chinese-names/last-names",
+				},
+			],
+			topics: ["fantasy", "names"],
+		},
+		{
 			name: "Mithril and Mages",
 			website: {
 				name: "Website",
