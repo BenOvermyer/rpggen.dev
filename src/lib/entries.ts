@@ -902,6 +902,25 @@ export function all(): Entry[] {
 			topics: ["sci-fi"],
 		},
 		{
+			name: "Skyborne Names",
+			website: {
+				name: "Website",
+				url: "https://skybornenames.com/",
+			},
+			interview: null,
+			examples: [
+				{
+					name: "Skyborne name generator",
+					url: "https://skybornenames.com/",
+				},
+				{
+					name: "WoW multi-race names",
+					url: "https://skybornenames.com/wow-names",
+				},
+			],
+			topics: ["fantasy", "names"],
+		},
+		{
 			name: "Springhole Random Generators",
 			website: {
 				name: "Website",
